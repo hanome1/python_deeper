@@ -55,14 +55,14 @@ for i in repeats:
 # print(word_repeats)
 
 repeats_word = []
-i=0
+i = 0
 while i < len(word_repeats):
-    repeats_word.append([word_repeats[i][0],word_repeats[i][1]])
-    i+=1
+    repeats_word.append([word_repeats[i][0], word_repeats[i][1]])
+    i += 1
 repeats_word = sorted(repeats_word, reverse=True)
 # print(repeats_word)
-i = 0
 
+i = 0
 while i < 10:
     print(f'слово "{repeats_word[i][1]}" встречается {repeats_word[i][0]} раз')
-    i+=1
+    i += 1
