@@ -49,18 +49,24 @@ for i in words:
     repeats[i] = words.count(i)
 # print(repeats)
 
-word_repeats = []
-for i in repeats:
-    word_repeats.append([repeats[i], i])
-# print(word_repeats)
+# word_repeats = []
+# for i in repeats:
+#     word_repeats.append([repeats[i], i])
+# # print(word_repeats)
+
+# repeats_word = []
+# i = 0
+# while i < len(word_repeats):
+#     repeats_word.append([word_repeats[i][0], word_repeats[i][1]])
+#     i += 1
+# repeats_word = sorted(repeats_word, reverse=True)
+# # print(repeats_word)
 
 repeats_word = []
-i = 0
-while i < len(word_repeats):
-    repeats_word.append([word_repeats[i][0], word_repeats[i][1]])
-    i += 1
+for i in repeats:
+    repeats_word.append([repeats[i], i])
 repeats_word = sorted(repeats_word, reverse=True)
-# print(repeats_word)
+print(repeats_word)
 
 i = 0
 while i < 10:
