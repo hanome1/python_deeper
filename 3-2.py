@@ -66,7 +66,7 @@ repeats_word = []
 for i in repeats:
     repeats_word.append([repeats[i], i])
 repeats_word = sorted(repeats_word, reverse=True)
-print(repeats_word)
+# print(repeats_word)
 
 i = 0
 while i < 10:
