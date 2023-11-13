@@ -13,7 +13,7 @@ import logging
 import argparse
 
 LOG_FORMAT = '{levelname}, {asctime}, {msg}'
-logging.basicConfig(format=LOG_FORMAT, style='{', filename='log.log', encoding='utf-8', level=logging.ERROR)
+logging.basicConfig(format=LOG_FORMAT, style='{', filename='log.log', encoding='utf-8', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
@@ -41,17 +41,17 @@ def dir_info(path: str) -> namedtuple:
 
 def par():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-p','--path', metavar='PATH', type=str, nargs=1, help='input the path to dir', default='E:\GB\python_deeper')
+    parser.add_argument('-p','--path', metavar='PATH', type=str, help='input the path to dir', default='E:\GB\python_deeper')
     args = parser.parse_args()
     print(args)
-    print(f'В скрипт передано: {args}')
+
+    logger.info(f'Указан путь: {args.path}')
+
     return dir_info(args.path)
 
 
 # for item in dir_info('E:\GB\python_deeper'):
 #     print(item)
-#     pass
 # for item in dir_info('sdsr'):
 #     print(item)
-#     pass
 print(par())
