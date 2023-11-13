@@ -1,0 +1,43 @@
+ERROR, 2023-11-13 15:45:32,077, Ошибка [WinError 3] Системе не удается найти указанный путь: 'sdsr' в функции dir_info с аргументами: ('sdsr',), {}
+ERROR, 2023-11-13 15:45:37,691, Ошибка [WinError 3] Системе не удается найти указанный путь: 'sdsr' в функции dir_info с аргументами: ('sdsr',), {}
+ERROR, 2023-11-13 15:46:16,129, Ошибка [WinError 3] Системе не удается найти указанный путь: 'sdsr' в функции dir_info с аргументами: ('sdsr',), {}
+ERROR, 2023-11-13 15:47:17,444, Ошибка [WinError 3] Системе не удается найти указанный путь: 'sdsr' в функции dir_info с аргументами: ('sdsr',), {}
+ERROR, 2023-11-13 15:50:18,979, Ошибка [WinError 3] Системе не удается найти указанный путь: 'sdsr' в функции dir_info с аргументами: ('sdsr',), {}
+ERROR, 2023-11-13 15:58:16,459, Ошибка [WinError 3] Системе не удается найти указанный путь: 'sdsr' в функции dir_info с аргументами: ('sdsr',), {}
+ERROR, 2023-11-13 16:08:53,535, Ошибка expected str, bytes or os.PathLike object, not NoneType в функции dir_info с аргументами: (None,), {}
+ERROR, 2023-11-13 16:11:18,872, Ошибка [WinError 3] Системе не удается найти указанный путь: 'sds' в функции dir_info с аргументами: ('sds',), {}
+ERROR, 2023-11-13 16:13:11,596, Ошибка name 'i' is not defined в функции dir_info с аргументами: ('E:\\GB\\python_deeper',), {}
+ERROR, 2023-11-13 16:14:38,938, Ошибка can only concatenate str (not "File") to str в функции dir_info с аргументами: ('E:\\GB\\python_deeper',), {}
+ERROR, 2023-11-13 16:15:11,698, Ошибка can only concatenate tuple (not "str") to tuple в функции dir_info с аргументами: ('E:\\GB\\python_deeper',), {}
+ERROR, 2023-11-13 16:15:22,561, Ошибка can only concatenate str (not "File") to str в функции dir_info с аргументами: ('E:\\GB\\python_deeper',), {}
+ERROR, 2023-11-13 16:15:39,943, Ошибка can only concatenate tuple (not "str") to tuple в функции dir_info с аргументами: ('E:\\GB\\python_deeper',), {}
+ERROR, 2023-11-13 16:16:01,034, Ошибка can only concatenate tuple (not "str") to tuple в функции dir_info с аргументами: ('E:\\GB\\python_deeper',), {}
+ERROR, 2023-11-13 16:16:32,191, Ошибка can only concatenate str (not "File") to str в функции dir_info с аргументами: ('E:\\GB\\python_deeper',), {}
+ERROR, 2023-11-13 16:16:58,901, Ошибка can only concatenate str (not "File") to str в функции dir_info с аргументами: ('E:\\GB\\python_deeper',), {}
+ERROR, 2023-11-13 16:36:47,358, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['e:\\'],), {}
+ERROR, 2023-11-13 16:36:52,207, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['e:'],), {}
+ERROR, 2023-11-13 16:37:05,599, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['e:\\\\'],), {}
+ERROR, 2023-11-13 16:37:12,497, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['e:\\\\gb'],), {}
+ERROR, 2023-11-13 16:37:18,785, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['e\\gb'],), {}
+ERROR, 2023-11-13 16:37:28,305, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['e:\\gb'],), {}
+ERROR, 2023-11-13 16:37:42,110, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['e:\\gb\\'],), {}
+ERROR, 2023-11-13 16:37:58,437, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['C:\\temp'],), {}
+ERROR, 2023-11-13 16:38:22,234, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['C:\\temp'],), {}
+ERROR, 2023-11-13 16:38:50,571, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['e:\\\\E:\\GB\\python_deeper'],), {}
+ERROR, 2023-11-13 16:39:13,031, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['e:\\\\E:\\GB\\python_deeper'],), {}
+ERROR, 2023-11-13 16:39:26,876, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['e:\\E:\\GB\\python_deeper'],), {}
+ERROR, 2023-11-13 16:39:34,344, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['E:\\GB\\python_deeper'],), {}
+ERROR, 2023-11-13 16:41:16,339, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['E:\\GB\\python_deeper'],), {}
+ERROR, 2023-11-13 16:41:55,446, Ошибка expected str, bytes or os.PathLike object, not list в функции dir_info с аргументами: (['E:\\GB\\python_deeper'],), {}
+ERROR, 2023-11-13 16:49:50,580, Ошибка [WinError 3] Системе не удается найти указанный путь: 'bjklky' в функции dir_info с аргументами: ('bjklky',), {}
+ERROR, 2023-11-13 16:50:01,075, Ошибка [WinError 3] Системе не удается найти указанный путь: 'bjklky' в функции dir_info с аргументами: ('bjklky',), {}
+INFO, 2023-11-13 16:54:45,154, Argument %s: %r
+INFO, 2023-11-13 16:59:33,286, Argument %s: %r
+ERROR, 2023-11-13 16:59:33,286, Ошибка [WinError 3] Системе не удается найти указанный путь: 'bjklky' в функции dir_info с аргументами: ('bjklky',), {}
+ERROR, 2023-11-13 17:00:46,205, Ошибка [WinError 3] Системе не удается найти указанный путь: 'bjklky' в функции dir_info с аргументами: ('bjklky',), {}
+ERROR, 2023-11-13 17:02:04,460, Ошибка [WinError 3] Системе не удается найти указанный путь: 'bjklky' в функции dir_info с аргументами: ('bjklky',), {}
+INFO, 2023-11-13 17:02:35,238, Указан путь: 
+INFO, 2023-11-13 17:02:42,154, Указан путь: 
+INFO, 2023-11-13 17:03:09,305, Указан путь: E:\GB\python_deeper
+INFO, 2023-11-13 17:03:18,313, Указан путь: bjklky
+ERROR, 2023-11-13 17:03:18,313, Ошибка [WinError 3] Системе не удается найти указанный путь: 'bjklky' в функции dir_info с аргументами: ('bjklky',), {}
