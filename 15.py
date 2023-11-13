@@ -39,17 +39,19 @@ def dir_info(path: str) -> namedtuple:
     return res
 
 
-# parser = argparse.ArgumentParser()
-# parser.add_argument('path', metavar='PATH', type=str, nargs=1, help='input the path to dir')
-# args = parser.parse_args()
-# print(f'В скрипт передано: {args}')
-# return dir_info(args.path)
+def par():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-p','--path', metavar='PATH', type=str, nargs=1, help='input the path to dir', default='E:\GB\python_deeper')
+    args = parser.parse_args()
+    print(args)
+    print(f'В скрипт передано: {args}')
+    return dir_info(args.path)
 
 
-for item in dir_info('E:\GB\python_deeper'):
-    print(item)
-    pass
-for item in dir_info('sdsr'):
-    print(item)
-    pass
-# print(parse)
+# for item in dir_info('E:\GB\python_deeper'):
+#     print(item)
+#     pass
+# for item in dir_info('sdsr'):
+#     print(item)
+#     pass
+print(par())
